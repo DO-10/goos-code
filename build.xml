@@ -41,7 +41,7 @@
     
     <target name="openfire.check">
         <waitfor checkevery="1" checkeveryunit="second" maxwait="20" timeoutproperty="openfire.is.down">
-            <http url="http://localhost:9090" />
+            <http url="http://113.45.42.87:9090" />
         </waitfor>
     </target>
     
